@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 48px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yesBtn {
+  background: #ff4b5c;
+  color: white;
+}
+
+#noBtn {
+  background: #ccc;
+}
+
+.gif {
+  width: 200px;
+  margin-top: 20px;
+}
